@@ -4,18 +4,28 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/Cinza">
+    android:background="@drawable/bg_degrade">
 
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Início"
+        android:textColor="@android:color/white"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_navigation"
         android:layout_width="match_parent"
         android:layout_height="90dp"
         android:background="@android:color/white"
-
         app:labelVisibilityMode="labeled"
-
         app:layout_constraintBottom_toBottomOf="parent"
-        app:menu="@menu/menu_botao"
-        tools:layout_editor_absoluteX="0dp" />
+        app:menu="@menu/menu_botao" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

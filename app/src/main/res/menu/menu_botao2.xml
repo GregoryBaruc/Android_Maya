@@ -8,7 +8,9 @@
     <item
         android:id="@+id/nav_agendamento2"
         android:icon="@drawable/ic_calendar"
-        android:title="Agendamento" />
+        android:title="Agendamento"
+        android:checked="true"
+        />
 
     <item
         android:id="@+id/nav_exercicios2"

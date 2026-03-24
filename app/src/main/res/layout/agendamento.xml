@@ -6,13 +6,13 @@
 
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/Cinza">
+    android:background="@drawable/bg_degrade">
 
     <LinearLayout
         android:id="@+id/topo"
         android:layout_width="0dp"
         android:layout_height="100dp"
-        android:background="#7B68EE"
+        android:background="@drawable/bg_degrade"
         android:gravity="center_vertical"
         android:paddingStart="16dp"
         android:orientation="horizontal"
@@ -51,7 +51,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:selectedItemId="@+id/nav_agendamento2"
+
         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
