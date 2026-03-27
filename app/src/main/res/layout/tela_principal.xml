@@ -6,18 +6,63 @@
     android:layout_height="match_parent"
     android:background="@drawable/bg_degrade">
 
+
+    <ImageView
+        android:id="@+id/LogoMaya2"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/maya_rpg"
+
+        />
+
     <TextView
-        android:id="@+id/txtTitulo"
+        android:id="@+id/txtNomeUsuario"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Início"
-        android:textColor="@android:color/white"
+        android:textColor="@android:color/black"
         android:textSize="32sp"
         android:textStyle="bold"
         android:layout_marginTop="50dp"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/LogoMaya2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="123dp"
+        android:orientation="vertical"
+        android:background="@drawable/bg_fundo_cinza"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@id/txtNomeUsuario"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <TextView
+            android:id="@+id/lembretefixo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sua Próxima Sessão é"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginStart="50dp"
+            />
+
+        <TextView
+            android:id="@+id/lembrete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lembrete"
+            android:textColor="@color/black"
+            android:layout_marginTop="17dp"
+            android:layout_marginStart="90dp"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_navigation"
@@ -27,5 +72,7 @@
         app:labelVisibilityMode="labeled"
         app:layout_constraintBottom_toBottomOf="parent"
         app:menu="@menu/menu_botao" />
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
