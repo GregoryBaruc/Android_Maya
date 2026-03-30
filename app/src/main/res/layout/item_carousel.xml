@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Layout para cada item individual do carrossel de imagens.
+    Utiliza um FrameLayout para conter a ImageView centralizada.
+-->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--
+        Componente de imagem que preencherá o espaço do card.
+        O scaleType 'centerCrop' garante que a imagem cubra toda a área disponível.
+    -->
+    <ImageView
+        android:id="@+id/imgCarousel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:padding="0dp" />
+</FrameLayout>

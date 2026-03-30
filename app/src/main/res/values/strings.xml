@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Maya Rpg</string>
+    <string name="titulo_exercicios">EXERCÍCIOS</string>
+    <string name="num_365">365</string>
+    <string name="dias_ofensiva">DIAS DE OFENSIVA</string>
+    <string name="frase_motivacional">Você está indo muito bem!</string>
+    <string name="sugestoes_maya">Sugestões da Maya</string>
+    <string name="item_pernas">1. Fortalecimento das Pernas</string>
+    <string name="item_quadril">2. Fortalecimento do Quadril</string>
+    <string name="item_articular">3. Fortalecimento Articular</string>
+    <string name="btn_iniciar">Iniciar</string>
+    <string name="desc_voltar">Botão Voltar</string>
+    <string name="desc_halter">Ícone de Halter</string>
 </resources>
