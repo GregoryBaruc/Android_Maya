@@ -9,7 +9,7 @@
     android:background="@drawable/bg_degrade">
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/LogoPrincipal"
         android:layout_width="200dp"
         android:layout_height="220dp"
         android:src="@drawable/maya_rpg"
@@ -39,9 +39,10 @@
         android:background="@drawable/bg_bordas"
         android:hint="Digite seu usuário"
         android:inputType="text"
+        android:maxLength="45"
         android:padding="12dp"
         android:textSize="16sp"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/LogoPrincipal"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="24dp" />
