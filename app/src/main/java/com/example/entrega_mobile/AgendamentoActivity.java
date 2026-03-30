@@ -15,7 +15,7 @@ import java.util.Calendar;
 
 /**
  * Activity responsável pelo agendamento de sessões.
- * Permite ao usuário selecionar uma data no calendário e um horário disponível.
+ * Permite ao usuário selecionar uma data no calendário e um horário disponível.ad
  */
 public class AgendamentoActivity extends AppCompatActivity {
 

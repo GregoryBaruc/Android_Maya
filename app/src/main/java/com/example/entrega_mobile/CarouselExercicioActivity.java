@@ -125,8 +125,8 @@ public class CarouselExercicioActivity extends AppCompatActivity {
     }
 
     /**
-     * Adapter interno utilizando o padrão ViewHolder para otimização de performance.
-     * Gerencia a vinculação das imagens aos itens do carrossel.
+      Adapter interno utilizando o padrão ViewHolder para otimização de performance.
+      Gerencia a vinculação das imagens aos itens do carrossel.
      */
     private static class CarouselAdapter extends RecyclerView.Adapter<CarouselAdapter.ViewHolder> {
         private final List<Integer> images;
